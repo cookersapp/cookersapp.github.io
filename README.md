@@ -20,6 +20,8 @@
 - [10 startup websites that make a great first impression](http://www.creativebloq.com/web-design/startup-website-51411693)
 - [40 New Startup Websites and Landing Pages for Inspiration](http://spyrestudios.com/40-new-startup-websites-landing-pages)
 
-## Liked landing pages
+## Sample landing pages
 
 - [LaunchKey](https://launchkey.com/)
+- [Splice](https://splice.com/)
+- [Le Même En Mieux](http://www.le-meme-en-mieux.com/)
