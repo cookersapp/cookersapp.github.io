@@ -57,8 +57,7 @@ var Log = (function(){
         id: Utils.createUuid(),
         $created: new Date(),
         utm_sources: [],
-        landings: [],
-        submits: []
+        landings: []
       });
       Utils.addIfNotExists(user.utm_sources, source);
       Utils.addIfNotExists(user.landings, LANDING_ID);
@@ -72,9 +71,12 @@ var Log = (function(){
       User.current.$email = mail;
       User.save(User.current);
     },
-    addSubmit: function(data){
-      data.landing = LANDING_ID;
-      User.current.submits.push(data);
+    setPlatform: function(platform){
+      User.current.platform = platform;
+      User.save(User.current);
+    },
+    setLanding: function(landing){
+      User.current.lastLanding = landing;
       User.save(User.current);
     }
   };
@@ -97,8 +99,9 @@ var Log = (function(){
       }
     },
     register: function(params){
-      User.addSubmit(params);
       if(params.email){User.setMail(params.email);}
+      if(params.platform){User.setPlatform(params.platform);}
+      if(LANDING_ID){User.setLanding(LANDING_ID);}
       if(Log.trackingEnabled){
         mixpanel.people.set(User.current);
       } else {

@@ -25,3 +25,4 @@
 - [LaunchKey](https://launchkey.com/)
 - [Splice](https://splice.com/)
 - [Le Même En Mieux](http://www.le-meme-en-mieux.com/)
+- [GuidiGO](https://www.guidigo.com/)
