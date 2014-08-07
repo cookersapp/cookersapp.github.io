@@ -22,7 +22,11 @@
 
 ## Sample landing pages
 
-- [LaunchKey](https://launchkey.com/)
-- [Splice](https://splice.com/)
-- [Le Même En Mieux](http://www.le-meme-en-mieux.com/)
-- [GuidiGO](https://www.guidigo.com/)
+- [LaunchKey](https://launchkey.com/) Next-Gen Mobile Authentication for the Internet of Everything
+- [Splice](https://splice.com/) Connecting Music Creation
+- [Le Même En Mieux](http://www.le-meme-en-mieux.com/) Vous trouvez les billets de train trop chers ?
+- [GuidiGO](https://www.guidigo.com/) La visite guidée réinventée.
+- [Wunderlist](https://www.wunderlist.com/) Votre vie synchronisée
+- [Miimic](http://www.miimic.me/) Let your friends text for you.
+- [Jink](http://www.jinkapp.com/) The location-sharing app that makes it exceptionally easy to meet up with people you know.
+- [The Winnower](https://www.thewinnower.com/) The Winnower is founded on the principle that all ideas in science should be openly discussed and debated
