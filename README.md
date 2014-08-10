@@ -22,6 +22,7 @@
 
 ## Sample landing pages
 
+- [MEA.CUPPA](http://meacuppa.be/) Sweets & coffee
 - [LaunchKey](https://launchkey.com/) Next-Gen Mobile Authentication for the Internet of Everything
 - [Splice](https://splice.com/) Connecting Music Creation
 - [Le Même En Mieux](http://www.le-meme-en-mieux.com/) Vous trouvez les billets de train trop chers ?

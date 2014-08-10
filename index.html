@@ -4,58 +4,475 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="home_assets/images/ico/favicon.png">
+    <title>Cookers - Cuisinez, simplement !</title>
 
-    <title>Cookers, cuisinez, simplement !</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,700,700italic">
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/libs/animate.css">
+    <link rel="stylesheet" href="assets/libs/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/libs/ultimate-flat-social-icons/ultm-css/ultm-general.css">
+    <link rel="stylesheet" href="assets/libs/ultimate-flat-social-icons/ultm-css/ultm-sizes.css">
+    <link rel="stylesheet" href="assets/libs/ultimate-flat-social-icons/ultm-css/ultm-shapes.css">
+    <link rel="stylesheet" href="assets/libs/ultimate-flat-social-icons/ultm-css/ultm-bg-colors.css">
+    <link rel="stylesheet" href="assets/libs/ultimate-flat-social-icons/ultm-css/ultm-bg-images-32.css">
+    <link rel="stylesheet" href="assets/libs/ultimate-flat-social-icons/ultm-css/ultm-effects.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="home_assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="home_assets/css/cover.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+                                                                                                                           for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+      mixpanel.init("9b7ab01ca813a2e20ef8247b82ab8c0d");</script>
+    <!-- end Mixpanel -->
   </head>
   <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Cookers</h3>
-              <!--<ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>-->
+    <!-- Top menu -->
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2 nav-logo">
+            <a class="scroll-link" href="#top-content">Cookers - Cuisine, simplement !</a>
+          </div>
+          <div class="col-sm-10 nav-links">
+            <div class="show-menu">
+              <a href=""><i class="fa fa-bars"></i></a>
             </div>
+            <ul class="nav">
+              <li><a class="scroll-link" href="#top-content">Bienvenue</a></li>
+              <li><a class="scroll-link" href="#features">Cookers, kesaco ?</a></li>
+              <li><a class="scroll-link" href="#how-it-works">Au quotidien</a></li>
+              <!--<li><a class="scroll-link" href="#screenshots">Testimonials</a></li>-->
+              <li><a class="scroll-link" href="#screenshots">Un coup d'oeil</a></li>
+              <!--<li><a class="scroll-link" href="#faq">Faq</a></li>-->
+              <li><a class="scroll-link" href="#about-us">La tribu</a></li>
+              <!--<li><a class="scroll-link" href="#contact">Contact</a></li>-->
+            </ul>
           </div>
-          <div class="inner cover">
-            <h1 class="cover-heading">Cuisine en toute simplicité !</h1>
-            <p class="lead"><b>Cookers</b> est la nouvelle application qui te permettra de cuisiner au quotidien sans te prendre la tête !</p>
-            <p class="lead">
-              <a href="http://cookersapp.github.io/01/?utm_source=main-page" class="btn btn-lg btn-default">Plus d'informations</a>
-            </p>
-          </div>
-          <div class="mastfoot">
-            <div class="inner">
-              <!--<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top content -->
+    <div id="top-content" class="top-content section-container section-container-full-bg" data-background="assets/images/background.jpg" style="background-image: url(assets/images/background.jpg); background-size: cover;">
+      <div class="inner-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 phone wow fadeInLeft">
+              <img src="assets/images/screenshots/phone-top.png" alt="" style="width: 308px;">
+            </div>
+            <div class="col-sm-7 text wow fadeInUp">
+              <h1 class="title">Des recettes simples et rapides pour toute la semaine</h1>
+              <div class="description">
+                L'application Cookers te propose chaque semaine dix recettes soigneusement sélectionnées pour être rapides à cuisiner tout en restant <b>appétissantes</b> !
+              </div>
+
+              <div class="call-to-action-button wow fadeInUp">
+                <a class="download-btn" href="#" data-platform="iphone"><img src="assets/images/download/iphone.png"></a>
+                <a class="download-btn" href="#" data-platform="android"><img src="assets/images/download/android.png"></a>
+                <a class="download-btn" href="#" data-platform="windowsphone"><img src="assets/images/download/windowsphone.png"></a>
+                <div class="subscribe">
+                  <form class="form-inline" method="post">
+                    <input type="hidden" name="submit-form" value="top-content">
+                    <input type="hidden" name="platform" value="unknown">
+                    <input type="email" name="email" placeholder="Entre ton mail..." class="subscribe-email" required>
+                    <button type="submit" class="btn">S'inscrire pour la beta</button>
+                  </form>
+                  <div class="success-message">
+                    Merci de ton intérêt !<br>
+                    Nous te tiendrons informé rapidement.
+                  </div>
+                  <div class="error-message">
+                    Une erreur est survenue :(<br>
+                    Contactez <a href="mailto:loicknuchel@gmail.com">loicknuchel@gmail.com</a> pour plus d'informations...
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="home_assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Features -->
+    <div id="features" class="features-container section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 features section-description wow fadeIn">
+            <h2 class="title">Cuisine sans te prendre la tête !</h2>
+            <p>
+              Tout le nécessaire pour cuisiner est maintenant dans ta poche !
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 features-left wow fadeInUp">
+            <div class="features-box">
+              <div class="features-box-icon"><i class="fa fa-thumbs-o-up"></i></div>
+              <h3 class="title">Choisis tes recettes</h3><!-- Recettes choisies pour toi -->
+              <p>Des recettes avec peu d'ingrédients parce que les choses les plus simples sont souvent les meilleures.</p>
+            </div>
+            <div class="features-box">
+              <div class="features-box-icon"><i class="fa fa-calendar"></i></div>
+              <h3 class="title">Organise tes repas</h3><!-- Planning -->
+              <p>Planifie tes recettes pour bien organiser ta semaine et ne plus oublier tes courses au fond du frigo !</p>
+            </div>
+          </div>
+          <div class="col-sm-4 features-center wow fadeInDown">
+            <img src="assets/images/screenshots/phone-features.png" alt="" style="width: 308px;">
+          </div>
+          <div class="col-sm-4 features-right wow fadeInUp">
+            <div class="features-box">
+              <div class="features-box-icon"><i class="fa fa-shopping-cart"></i></div>
+              <h3 class="title">Génère ta liste de course</h3><!-- Liste de course automatique -->
+              <p>Les ingrédients des recettes sont ajoutés, triés et fusionnés automatiquement dans la liste de courses pour faciliter tes achats.</p>
+            </div>
+            <div class="features-box">
+              <div class="features-box-icon"><i class="fa fa-eye"></i></div>
+              <h3 class="title">Découvre chaque semaine de nouvelles recettes</h3><!-- Des nouvelles recettes chaque semaine -->
+              <p>Varie tes repas en suivant les recommandations de l'application. Plus de prise de tête pour savoir quoi cuisiner !</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 section-description wow fadeIn">
+            <p>
+              Plus d'excuses pour traîner sur alloresto ou te faire des pâtes pour la 3ème fois de la semaine !
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <div id="how-it-works" class="how-it-works-container section-container section-container-full-bg" data-background="assets/images/tarte-aux-tomates-multicolores_flou.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 how-it-works section-description wow fadeIn">
+            <h2 class="title">Une appli de tous les jours</h2>
+            <p>
+              Ton coeur balance entre culpabilisation et prises de tête ?<br>
+              Voilà comment résoudre ton problème, pas à pas !
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5 how-it-works-video wow fadeInLeft">
+            <img src="assets/images/tarte-aux-tomates-multicolores.jpg">
+          </div>
+          <div class="col-sm-4 how-it-works-description how-it-works-description-left wow fadeInUp">
+            <h3 class="title"><b>1.</b> Lance l'application</h3>
+            <p>On renouvelle les recettes de semaine en semaine. N'oublie pas d'aller les voir.</p>
+            <h3 class="title"><b>2.</b> Choisis tes recettes</h3>
+            <p>Accède rapidement aux recettes de la semaine et choisis ce qui te plaît.</p>
+          </div>
+          <div class="col-sm-3 how-it-works-description wow fadeInUp">
+            <h3 class="title"><b>3.</b> Fais tes courses</h3>
+            <p>Coche les ingrédients achetés au fur et à mesure que tu fais tes courses.</p>
+            <h3 class="title"><b>4.</b> Cuisine</h3>
+            <p>Retourne sur la recette à cuisiner et active le mode "cuisine" pour une utilisation idéale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screenshots -->
+    <div id="screenshots" class="screenshots-container section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 screenshots section-description wow fadeIn">
+            <h2 class="title">Un coup d'oeil</h2>
+            <p>Quelques écrans en avant-première !</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 screenshot-box wow fadeInUp">
+            <img src="assets/images/screenshots/screenshots1.png" alt="Recette">
+          </div>
+          <div class="col-sm-4 screenshot-box wow fadeInDown">
+            <img src="assets/images/screenshots/screenshots2.png" alt="Recette détail">
+          </div>
+          <div class="col-sm-4 screenshot-box wow fadeInUp">
+            <img src="assets/images/screenshots/screenshots3.png" alt="Liste de courses">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <!--<div id="faq" class="faq-container section-container">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 faq section-description wow fadeIn">
+<h2>Frequently asked questions</h2>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-8 faq-box faq-box-left wow fadeInLeft">
+<div class="single-faq">
+<h3>Ut wisi enim ad minim veniam, quis nostrud exerci tation nostrud?</h3>
+<span><i class="fa fa-plus"></i></span>
+<div class="single-faq-text">
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+</div>
+</div>
+<div class="single-faq">
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do?</h3>
+<span><i class="fa fa-plus"></i></span>
+<div class="single-faq-text">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+</div>
+</div>
+<div class="single-faq">
+<h3>Quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut?</h3>
+<span><i class="fa fa-plus"></i></span>
+<div class="single-faq-text">
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+<div class="single-faq">
+<h3>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</h3>
+<span><i class="fa fa-plus"></i></span>
+<div class="single-faq-text">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-4 faq-box faq-box-right wow fadeInUp">
+<span>?</span>
+</div>
+</div>
+</div>
+</div>-->
+
+    <!-- Latest tweets -->
+    <!--<div id="latest-tweets" class="latest-tweets-container section-container section-container-full-bg">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 latest-tweets section-description wow fadeIn">
+<h2>Our latest tweets</h2>
+<p class="tweet-active"></p>
+<div class="tweets"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 tweets-follow-us wow fadeInUp">
+Follow us on Twitter: <a href="http://twitter.com/anli_zaimi" target="_blank">@anli_zaimi</a>
+</div>
+</div>
+</div>
+</div>-->
+
+    <!-- Testimonials -->
+    <!--<div id="testimonials" class="testimonials-container section-container">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 testimonials section-description wow fadeIn">
+<h2>Testimonials</h2>
+<div class="testimonial-active"></div>
+<div class="testimonial-quote">&ldquo; &rdquo;</div>
+<div class="testimonial-single">
+<p>
+<span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl.</span><br>
+<a href="#" target="_blank">John Doe, johndoe.com</a>
+</p>
+<div class="testimonial-single-image"><img src="assets/images/testimonials/1.jpg" data-at2x="images/testimonials/1.jpg" alt=""></div>
+</div>
+<div class="testimonial-single">
+<p>
+<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</span><br>
+<a href="#" target="_blank">Jane Jonsson, blog.jane.com</a>
+</p>
+<div class="testimonial-single-image"><img src="assets/images/testimonials/2.jpg" data-at2x="images/testimonials/2.jpg" alt=""></div>
+</div>
+<div class="testimonial-single">
+<p>
+<span>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl.</span><br>
+<a href="#" target="_blank">John Doe, johndoe.com</a>
+</p>
+<div class="testimonial-single-image"><img src="images/testimonials/1.jpg" data-at2x="images/testimonials/1.jpg" alt=""></div>
+</div>
+<div class="testimonial-single">
+<p>
+<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</span><br>
+<a href="#" target="_blank">Jane Jonsson, blog.jane.com</a>
+</p>
+<div class="testimonial-single-image"><img src="assets/images/testimonials/2.jpg" data-at2x="images/testimonials/2.jpg" alt=""></div>
+</div>
+</div>
+</div>
+</div>
+</div>-->
+
+    <!-- Call to action -->
+    <div id="call-to-action" class="call-to-action-container section-container section-container-full-bg" data-background="assets/images/background.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 download call-to-action section-description wow fadeIn">
+            <h2 class="title">Télécharge l'application</h2>
+            <p>Laisse-toi guider et embarque dans une expérience culinaire simple et agréable.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="call-to-action-button wow fadeInUp">
+              <a class="download-btn" href="#" data-platform="iphone"><img src="assets/images/download/iphone.png"></a>
+              <a class="download-btn" href="#" data-platform="android"><img src="assets/images/download/android.png"></a>
+              <a class="download-btn" href="#" data-platform="windowsphone"><img src="assets/images/download/windowsphone.png"></a>
+              <div class="subscribe">
+                <form class="form-inline" method="post">
+                  <input type="hidden" name="submit-form" value="download">
+                  <input type="hidden" name="platform" value="unknown">
+                  <input type="email" name="email" placeholder="Entre ton mail..." class="subscribe-email" required>
+                  <button type="submit" class="btn">S'inscrire pour la beta</button>
+                </form>
+                <div class="success-message">
+                  Merci de ton intérêt !<br>
+                  Nous te tiendrons informé rapidement.
+                </div>
+                <div class="error-message">
+                  Une erreur est survenue :(<br>
+                  Contactez <a href="mailto:loicknuchel@gmail.com">loicknuchel@gmail.com</a> pour plus d'informations...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About us -->
+    <div id="about-us" class="about-us-container section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 about-us section-description wow fadeIn">
+            <h2 class="title">La fine équipe</h2>
+            <p>"Nous nous sommes unis pour enfin rendre la cuisine simple et agréable."</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 about-us-box wow fadeInUp">
+            <div class="about-us-photo">
+              <img src="assets/images/team/audreystroppa.jpg" alt="Audrey Stroppa">
+            </div>
+            <h3>Audrey Stroppa</h3>
+            <p><b>La fée culinaire</b>. S'occupe de vos papilles en toute simplicité.</p>
+            <!--<div class="about-us-social">
+<a class="ultm ultm-facebook ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-dribbble ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-twitter ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+</div>-->
+          </div>
+          <div class="col-sm-4 about-us-box wow fadeInUp">
+            <div class="about-us-photo">
+              <img src="assets/images/team/loicknuchel.jpg" alt="Loïc Knuchel">
+            </div>
+            <h3>Loïc Knuchel</h3>
+            <p><b>Le codeur fou</b>. Responsable de l'application et de sa fluidité.</p>
+            <!--<div class="about-us-social">
+<a class="ultm ultm-facebook ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-dribbble ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-twitter ultm-32 ultm-square ultm-color-to-gray" href="https://twitter.com/loicknuchel" target="twitter"></a>
+</div>-->
+          </div>
+          <div class="col-sm-4 about-us-box wow fadeInDown">
+            <div class="about-us-photo">
+              <img src="assets/images/team/vincentolive.jpg" alt="Vincent Olive">
+            </div>
+            <h3>Vincent Olive</h3>
+            <p><b>Le penseur artistique</b>. Ravit vos pupilles avec passion.<p/>
+            <!--<div class="about-us-social">
+<a class="ultm ultm-facebook ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-dribbble ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-twitter ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+</div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact us -->
+    <div id="contact" class="contact-container section-container section-container-full-bg" data-background="assets/images/cakes-cup-saucer-mug-macaroon-sweets-food-blur.jpg">
+      <div class="container" style="height: 1000px;">
+        <!--
+<div class="row">
+<div class="col-sm-12 contact section-description wow fadeIn">
+<h2>Contact us</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-7 contact-form wow fadeInLeft">
+<h3>Send us a message</h3>
+<form method="post">
+<input type="email" name="email" placeholder="Email..." class="contact-email" required>
+<input type="text" name="subject" placeholder="Subject..." class="contact-subject" required>
+<textarea name="message" placeholder="Message..." class="contact-message" required></textarea>
+<button type="submit">Send message</button>
+</form>
+</div>
+<div class="col-sm-5 contact-address wow fadeInUp">
+<h3>Contact details</h3>
+<p><i class="fa fa-map-marker"></i>Via Principe Amedeo 9, 10100, Torino, TO, Italy</p>
+<p><i class="fa fa-phone"></i>Phone: 0039 333 12 68 347</p>
+<p><i class="fa fa-envelope"></i>Email: <a href="">contact@yourdomain.com</a></p>
+</div>
+</div>
+-->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 footer-copyright handwrited">Bien manger c'est le début du bonheur !</div>
+          <!--<div class="col-sm-5 footer-social">
+<a class="ultm ultm-facebook ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-dribbble ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-twitter ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-google-plus-1 ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+<a class="ultm ultm-pinterest ultm-32 ultm-square ultm-color-to-gray" href=""></a>
+</div>-->
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Javascript -->
+    <script>var LANDING_ID = 'home';</script>
+    <script src="assets/libs/jquery-1.11.1.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/libs/jquery.backstretch.min.js"></script>
+    <script src="assets/libs/wow.min.js"></script>
+    <script src="assets/libs/retina.min.js"></script>
+    <script src="assets/libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/libs/jquery.tweet.min.js"></script>
+    <script src="assets/js/log.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+    <!--[if lt IE 10]>
+<script src="assets/libs/placeholder.js"></script>
+<![endif]-->
   </body>
 </html>
