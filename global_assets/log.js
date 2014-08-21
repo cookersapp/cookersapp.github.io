@@ -106,10 +106,10 @@ var Log = (function(){
     },
     track: function(event, params){
       if(Log.trackingEnabled){
-        if(Log.trackingDeep || (event === 'view' || event === 'download-click' || event === 'subscribe')){
-          mixpanel.track(event, $.extend({}, User.current, params));
-        } else {
+        if((event === 'scroll-to' || event === 'menu-click') && !Log.trackingDeep){
           console.log('track '+event, params);
+        } else {
+          mixpanel.track(event, $.extend({}, User.current, params));
         }
       } else {
         console.log('track '+event, params);
