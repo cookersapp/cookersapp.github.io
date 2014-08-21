@@ -15,6 +15,10 @@
 - [agency](http://startbootstrap.com/templates/agency/)
 - [areta](http://azmind.com/wrapbootstrap/areta/v1-0/) ([wrapbootstrap](https://wrapbootstrap.com/theme/areta-agency-portfolio-template-WB0L5XF38))
 
+- [angle](http://anglehtml.oxygenna.com/)
+- [borderlands](http://forum.azyrusthemes.com/index.html)
+- [readable](http://www.proteusthemes.com/themes/readable-html/)
+
 ## Sample landing pages
 
 - [10 startup websites that make a great first impression](http://www.creativebloq.com/web-design/startup-website-51411693)

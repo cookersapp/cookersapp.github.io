@@ -122,7 +122,10 @@ var Log = (function(){
     trackSubscribe: function(params){
       params.main = params.email;
       Log.track('subscribe', params);
-    }
+    },
+    
+    trackDownloadView: function(){Log.track('view-download');},
+    trackDownloadApp: function(){Log.track('download-app');}
   };
 })();
 

@@ -82,10 +82,14 @@ jQuery(document).ready(function(){
     e.preventDefault();
     var platform = $(this).attr('data-platform');
     Log.trackDownload(platform);
-    var $CTA = $('.call-to-action-button');
-    $CTA.find('form input[name="platform"]').val(platform);
-    $CTA.find('a.download-btn').hide();
-    $CTA.find('.subscribe').fadeIn();
+    if(platform === 'android'){
+      window.open('download', '_blank');
+    } else {
+      var $CTA = $('.call-to-action-button');
+      $CTA.find('form input[name="platform"]').val(platform);
+      $CTA.find('a.download-btn').hide();
+      $CTA.find('.subscribe').fadeIn();
+    }
   });
 
   /*
