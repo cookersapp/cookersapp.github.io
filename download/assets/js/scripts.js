@@ -3,6 +3,6 @@ jQuery(document).ready(function(){
   Log.trackDownloadView();
 
   $('.download-button').on('click', function(e){
-    Log.trackDownloadApp(platform);
+    Log.trackDownloadApp();
   });
 });
