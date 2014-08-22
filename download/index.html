@@ -32,61 +32,159 @@
     <!-- end Mixpanel -->
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12" style="padding: 20px;">
-          <h1>Bienvenue sur la page de téléchargement de l'application Cookers</h1>
-          <p>
-            L'application n'est, pour l'instant, disponible que sur <b>Android</b>.<br>
-            Les versions <b>iPhone</b> et <b>Windows Phone</b> devraient bientôt sortir :D<br>
-            Inscris-toi sur <a href="http://cookers.io/?utm_source=download-page">cookers.io</a> pour être notifié de leur publication !
-          </p>
-          <h2>Voici comment installer l'application :</h2>
-          <div style="background: rgba(255,255,255,0.9); padding: 10px; margin-bottom: 20px;">
-            <ol class="lead">
-              <li>
-                Active l'option sources inconnues<br>
-                <span class="text-muted">(Paramètres > Sécurité > Source inconnues)</span>
-              </li>
-              <li>
-                Télécharge l'application sur ton téléphone :<br>
-                <div class="row" style="margin-left: -35px;">
-                  <div class="col-md-6">
-                    <img src="assets/images/android_qrcode.png" style="padding: 10px 0px;">
-                  </div>
-                  <div class="col-md-6">
-                    <a href="https://raw.githubusercontent.com/cookersapp/cookersapp.github.io/master/download/cookers.apk" class="download-button" target="_blank">
-                      <img src="assets/images/android_download.png" style="margin-top: 100px;">
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li>
-                Installe l'application en cliquant sur le fichier cookers.apk
-              </li>
-            </ol>
-          </div>
-          <p>
-            <b>Félicitations !</b> Tu fais désormais partie des <i>early adopters</i> de Cookers :)
-          </p>
-          <p>
-            N'hésite pas à donner ton avis pour que l'application te convienne au mieux :
-          </p>
-          <ul>
-            <li>Depuis l'application</li>
-            <li>Sur <a href="https://www.facebook.com/getcookers" target="_blank">facebook</a></li>
-            <li>Sur <a href="https://twitter.com/cookersapp" target="_blank">twitter</a></li>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand img-brand" href="#"><img src="assets/images/logo_name.png"></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#welcome">Bienvenue</a></li>
+            <li><a href="#download">Télécharge-moi</a></li>
+            <li><a href="#features">Mes fonctionnalités</a></li>
           </ul>
-          <p>
-            Tu peux aussi consulter, voter et suggérer de <a href="http://cookers.uservoice.com/" target="_blank">nouvelles fonctionnalités</a> !
-          </p>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page lead">
+      <div class="container">
+        <span class="anchor" id="welcome"></span>
+        <div class="section">
+          <h2>Bienvenue !</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <img src="assets/images/01-intro1.png" class="center" style="width: 190px;">
+              <p style="text-align: center; margin-top: 20px;">
+                Les versions <b>iPhone</b> et <b>Windows Phone</b> devraient bientôt sortir :D<br>
+                Inscris-toi sur <a href="http://cookers.io/?utm_source=download-page">cookers.io</a> pour être notifié de leur publication !
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="anchor" id="download"></span>
+        <div class="section">
+          <h2>Télécharge-moi !</h2>
+          <div class="row">
+            <div class="col-md-3" style="padding: 0px 40px;">
+              <a href="https://raw.githubusercontent.com/cookersapp/cookersapp.github.io/master/download/cookers.apk" class="download-button" target="_blank">
+                <img src="assets/images/android_qrcode.png" class="full">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <ol>
+                <li>
+                  Active l'option sources inconnues<br>
+                  <span class="text-muted">(<i>Paramètres > Sécurité > Source inconnues</i>)</span>
+                </li>
+                <li>
+                  Télécharge l'application sur ton téléphone
+                </li>
+                <li>
+                  Installe l'application en cliquant sur le fichier <b>cookers.apk</b>
+                </li>
+              </ol>
+            </div>
+            <div class="col-md-3">
+              <a href="https://raw.githubusercontent.com/cookersapp/cookersapp.github.io/master/download/cookers.apk" class="download-button" target="_blank">
+                <img src="assets/images/android_download.png" class="full" style="margin-top: 60px;">
+              </a>
+            </div>
+          </div>
+        </div>
+        <span class="anchor" id="features"></span>
+        <div class="section">
+          <h2>Mes fonctionnalités !</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <p style="text-align: center;">
+                Parce qu'on veut te proposer une application au top,<br>
+                certaines fonctionnalités requièrent des permissions supplémentaires !
+              </p>
+              <p style="margin-top: 20px;">
+                Et pour t'éviter les mauvaises suprises, en voici le détail :
+              </p>
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="assets/images/13-weekrecipes-small-price.png" class="full">
+                </div>
+                <div class="col-md-4">
+                  <h3>Pour garder la fraicheur des infos !</h3>
+                  <ul class="small">
+                    <li>Bénéficier d'un accès complet au réseau (internet)</li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <img src="assets/images/26-cook-timers.png" class="full">
+                </div>
+                <div class="col-md-4">
+                  <h3>
+                    Pour ne rien brûler,<br>
+                    des chronos avec alarme !
+                  </h3>
+                  <ul class="small">
+                    <li>Voir l'état et l'identité du téléphone</li>
+                    <li>Enregistrer des fichiers audio</li>
+                    <li>Modifier ou supprimer le contenu de la mémoire USB</li>
+                    <li>Voir le contenu de la mémoire USB</li>
+                    <li>Modifier vos paramètres audio</li>
+                  </ul>
+                  <span class="small"><i>On travaille activement à minimiser ces permissions !</i></span>
+                </div>
+              </div>
+              <div class="row" style="margin-top: 20px;">
+                <div class="col-md-2 col-md-offset-3">
+                  <img src="assets/images/18-cart-ingredients.png" class="full">
+                </div>
+                <div class="col-md-4">
+                  <h3>
+                    Pour trouver facilement un produit !<br>
+                    <span class="small text-muted">(fonctionnalité en cours de conception)</span>
+                  </h3>
+                  <ul class="small">
+                    <li>Position approximative et position précise (GPS)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="anchor" id="more"></span>
+        <div class="section">
+          <h2>Félicitations !</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                Tu fais désormais partie des <i>early adopters</i> de <img src="assets/images/logo_name.png" class="inline"> :)
+              </p>
+              <p>
+                N'hésite pas à donner ton avis pour que l'application te convienne au mieux :
+              </p>
+              <ul>
+                <li>Depuis l'application</li>
+                <li>Sur <a href="https://www.facebook.com/getcookers" target="_blank">facebook</a></li>
+                <li>Sur <a href="https://twitter.com/cookersapp" target="_blank">twitter</a></li>
+              </ul>
+              <p>
+                Tu peux aussi consulter, voter et suggérer de <a href="http://cookers.uservoice.com/" target="_blank">nouvelles fonctionnalités</a> !
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    
+
     <!-- Javascript -->
     <script>var LANDING_ID = 'download';</script>
     <script src="assets/libs/jquery-1.11.1.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="../global_assets/log.js"></script>
     <script src="assets/js/scripts.js"></script>
   </body>

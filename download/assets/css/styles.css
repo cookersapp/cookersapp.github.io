@@ -1,15 +1,92 @@
 body {
-  background: url(../images/background.jpg);
-  background-size: cover;
+  padding-top: 70px;
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 14px;
+  color: #666;
+  background-color: #ecf0f1;
 }
 
-.container {
-  margin-top: 30px;
-  background: rgba(255,255,255,0.7);
+/* Header */
+.navbar {
+  height: 70px;
+  border-bottom: 1px solid #c9cccd;
+  background-color: #fff;
+}
+.navbar-brand.img-brand {
+  padding: 10px 15px;
+}
+.navbar-brand.img-brand img {
+  height: 50px;
+}
+.navbar-nav > li > a {
+  line-height: 40px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+/* Content */
+.page {
+  border-top: solid 1px #e0e4e5;
+}
+.page .container .section {
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px #c9cccd;
+  margin: 30px 0px;
+  padding: 20px;
+}
+.page .container .section h2 {
+  margin-bottom: 20px; 
+  text-align: center;
+}
+.anchor{
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
+
+/* General */
+h1, h2, h3 {
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #f62;
+  font-weight: 600;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+h3 {
+  font-size: 21px;
+}
+a {
+  color: #86cc2a;
+}
+a:hover {
+  color: #537f1a;
+}
+.text-muted, h3 .text-muted {
+  color: #aaa;
+}
+img.full {
+  width: 100%;
+}
+img.half {
+  width: 50%;
+}
+img.center {
+  display: block;
+  margin: auto;
+}
+img.inline {
+  height: 28px;
+}
+
+/* Specific */
+#download ol li {
+  padding: 10px 0px;
+}
+
+#features ul.small {
+  font-size: 75%;
 }

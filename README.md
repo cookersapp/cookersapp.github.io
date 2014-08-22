@@ -15,9 +15,10 @@
 - [agency](http://startbootstrap.com/templates/agency/)
 - [areta](http://azmind.com/wrapbootstrap/areta/v1-0/) ([wrapbootstrap](https://wrapbootstrap.com/theme/areta-agency-portfolio-template-WB0L5XF38))
 
-- [angle](http://anglehtml.oxygenna.com/)
-- [borderlands](http://forum.azyrusthemes.com/index.html)
-- [readable](http://www.proteusthemes.com/themes/readable-html/)
+- [angle](http://anglehtml.oxygenna.com/) ([themeforest](http://themeforest.net/item/angle-flat-responsive-bootstrap-template/8241353))
+- [borderlands](http://forum.azyrusthemes.com/index.html) ([themeforest](http://themeforest.net/item/forum-website-html-template/7968760))
+- [readable](http://www.proteusthemes.com/themes/readable-html/) ([themeforest](http://themeforest.net/item/readable-blog-template-focused-on-readability/7499064))
+- [nexus](http://secondwindprojects.com/nexus/) ([themeforest](http://themeforest.net/item/nexus-premium-vanilla-2-theme/8182116))
 
 ## Sample landing pages
 
