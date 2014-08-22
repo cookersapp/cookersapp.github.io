@@ -195,6 +195,10 @@ nav .show-menu a:hover { color: #be5254; }
   color: #333;
 }
 
+.social-icons a img {
+  width: 80px;
+}
+
 
 /***** How it works *****/
 

@@ -73,7 +73,7 @@ jQuery(document).ready(function(){
   /*
    * Wow
    */
-  new WOW().init();
+  // new WOW().init();
 
   /*
    * Download
