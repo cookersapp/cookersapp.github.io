@@ -93,6 +93,16 @@ jQuery(document).ready(function(){
   });
 
   /*
+   * Download
+   */
+  $('.social-icons a').on('click', function(e){
+    e.preventDefault();
+    var link = $(this).attr('platform');
+    var url = $(this).attr('href');
+    Log.trackSocial(link, url);
+  });
+
+  /*
    * Subscription form
    */
   $('.success-message').hide();

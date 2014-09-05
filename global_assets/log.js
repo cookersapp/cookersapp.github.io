@@ -119,6 +119,7 @@ var Log = (function(){
     trackScroll: function(section){Log.track('scroll-to', {main: section});},
     trackMenu: function(menu){Log.track('menu-click', {main: menu});},
     trackDownload: function(platform){Log.track('download-click', {main: platform});},
+    trackSocial: function(link, url){Log.track('social-click', {main: link, url: url});},
     trackSubscribe: function(params){
       params.main = params.email;
       Log.track('subscribe', params);
