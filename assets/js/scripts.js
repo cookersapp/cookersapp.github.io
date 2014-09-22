@@ -83,7 +83,7 @@ jQuery(document).ready(function(){
     var platform = $(this).attr('data-platform');
     Log.trackDownload(platform);
     if(platform === 'android'){
-      window.open('download', '_blank');
+      window.open('https://play.google.com/store/apps/details?id=com.cookers.assistant.android', '_blank');
     } else {
       var $CTA = $('.call-to-action-button');
       $CTA.find('form input[name="platform"]').val(platform);

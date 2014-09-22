@@ -90,7 +90,6 @@ var Log = (function(){
     identify: function(){
       if(Log.trackingEnabled){
         mixpanel.identify(User.current.id);
-        mixpanel.people.set(User.current);
       } else {
         console.log('identify', User.current.id);
       }
